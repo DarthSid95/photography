@@ -1,33 +1,5 @@
 <title>{{ site.title }}</title>
-   <header>
-
-      <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
-        <div class="container">
-          {% if page.permalink != '/' -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-            {%- if site.title == "blank" -%}
-              {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
-              {%- endif -%}
-              {%- if site.middle_name -%}
-                {{- site.middle_name -}}&nbsp;
-              {%- endif -%}
-              {%- if site.last_name -%}
-                {{- site.last_name -}}
-              {%- endif -%}
-            {%- else -%}
-              {{- site.title -}}
-            {%- endif -%}
-          </a>
-          {%- endif -%}
-        </div>
-      </nav>
-    </header>
-
-
-
-<!-- <meta charset="utf-8"/>
+ <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 <link rel="stylesheet" href="assets/css/main.min.css"/>
 {% if site.google_analytics %}
@@ -39,4 +11,4 @@
     ga('create', '{{ site.google_analytics }}', 'auto');
     ga('send', 'pageview');
 </script>
-{% endif %} -->
+{% endif %} 
