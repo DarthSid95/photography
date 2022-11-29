@@ -11,7 +11,7 @@ layout: default
         <nav>
             <ul>
                 <li><a href="#footer" class="icon fa-info-circle">About</a></li>
-                <li><a href="http://darthsid95.github.io/" class="icon fa-info-circle">Homepage</a></li>
+                <li><a href="http://darthsid95.github.io/" class="icon fa-info-circle">Return Home</a></li>
             </ul>
         </nav>
     </header>
@@ -21,7 +21,7 @@ layout: default
         {% for image in site.static_files %}
         {% if image.path contains 'fulls' %}
         <article class="thumb">
-            <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
+            <a href="{{ site.baseurl}}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
                 <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
                      data-name="{{ image.name }}"/></a>
             <!--<h2></h2>
