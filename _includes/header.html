@@ -1,14 +1,34 @@
 <title>{{ site.title }}</title>
-<meta charset="utf-8"/>
+   <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+        <div class="container">
+          {% if page.permalink != '/' -%}
+          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+            {%- if site.title == "blank" -%}
+              {%- if site.first_name -%}
+                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
+              {%- endif -%}
+              {%- if site.middle_name -%}
+                {{- site.middle_name -}}&nbsp;
+              {%- endif -%}
+              {%- if site.last_name -%}
+                {{- site.last_name -}}
+              {%- endif -%}
+            {%- else -%}
+              {{- site.title -}}
+            {%- endif -%}
+          </a>
+        </div>
+      </nav>
+    </header>
+
+
+
+<!-- <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-<!--[if lte IE 8]>
-<script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 <link rel="stylesheet" href="assets/css/main.min.css"/>
-<!--[if lte IE 9]>
-<link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
-<!--[if lte IE 8]>
-<link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
-<!-- Google Analytics -->
 {% if site.google_analytics %}
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -18,4 +38,4 @@
     ga('create', '{{ site.google_analytics }}', 'auto');
     ga('send', 'pageview');
 </script>
-{% endif %}
+{% endif %} -->
