@@ -1,6 +1,5 @@
 # Base configs
 baseurl: "https://DarthSid95.github.io/photography"
-homeurl: "https://DarthSid95.github.io"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbnails"
 google_analytics: ""
