@@ -1,5 +1,10 @@
 # Base configs
 baseurl: "https://DarthSid95.github.io/photography/"
+homeurl: "https://DarthSid95.github.io/"
+title: Photography # the website title (if blank, full name will be used instead)
+first_name: Siddarth
+middle_name: 
+last_name: Asokan
 image_fulls_loc: "/images/thumbs"
 image_thumbs_loc: "/images/thumbs"
 google_analytics: ""
