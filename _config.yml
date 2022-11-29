@@ -15,8 +15,6 @@ header:
 footer:
  name: "Hey there, my name is Sid"
  bio: "A collection of my snaps!"
- github: "This Page is forked from the <a href=\"https://github.com/ramswaroop/photography\">website by Ram Patra</a>"
-web_design: "AJ"
 social_urls:
   twitter: "https://www.twitter.com/siddarth95"
   github: "https://www.github.com/darthsid95"
