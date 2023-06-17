@@ -7,12 +7,12 @@ image_thumbs_loc: "/images/thumbnails"
 google_analytics: ""
 
 # UI configs
-title: "Photography by Siddarth Asokan"
+title: "Photography by Siddarth"
 subtitle: "See the world through my eyes!"
 author: "Siddarth Asokan"
 header:
  title: "Photography"
- subtitle: "by Siddarth Asokan"
+ subtitle: "by Siddarth"
 footer:
  name: "Hey there, my name is Sid"
  bio: "A collection of my snaps!"
